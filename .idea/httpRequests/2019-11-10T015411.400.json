@@ -1,0 +1,13 @@
+{
+  "error": {
+    "root_cause": [
+      {
+        "type": "illegal_argument_exception",
+        "reason": "request [/test1/_search] contains unrecognized parameter: [Pretty] -> did you mean [pretty]?"
+      }
+    ],
+    "type": "illegal_argument_exception",
+    "reason": "request [/test1/_search] contains unrecognized parameter: [Pretty] -> did you mean [pretty]?"
+  },
+  "status": 400
+}

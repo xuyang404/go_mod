@@ -1,0 +1,41 @@
+{
+  "took": 3,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 1,
+    "max_score": 1.0,
+    "hits": [
+      {
+        "_index": "test1",
+        "_type": "zhenai",
+        "_id": "1851500817",
+        "_score": 1.0,
+        "_source": {
+          "Url": "http://album.zhenai.com/u/1851500817",
+          "Id": "1851500817",
+          "Type": "zhenai",
+          "Payload": {
+            "Age": "21岁",
+            "Birthplace": "阿克苏",
+            "City": "",
+            "Education": "高中及以下",
+            "Gender": "",
+            "HaveCar": "未购车",
+            "HaveHouse": "未购房",
+            "Height": "170cm",
+            "Income": "5001-8000元",
+            "Marriage": "未婚",
+            "Name": "你在我心中是最美",
+            "Url": "http://album.zhenai.com/u/1851500817"
+          }
+        }
+      }
+    ]
+  }
+}

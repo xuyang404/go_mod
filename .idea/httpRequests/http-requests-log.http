@@ -1,0 +1,56 @@
+GET http://www.vowcloud.cn:9200/test1/_search?pretty=true
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-10T015425.200.json
+
+###
+
+GET http://www.vowcloud.cn:9200/test1/_search?Pretty=true
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-10T015411.400.json
+
+###
+
+GET http://www.vowcloud.cn:9200/test1/_search?q=Pretty
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-10T015400.200.json
+
+###
+
+GET http://www.vowcloud.cn:9200/test1/_search?q=Pretty
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-10T015356.200.json
+
+###
+
+GET http://www.vowcloud.cn:9200/test1/_search?q=puttry
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-10T015316.200.json
+
+###
+
+GET http://www.vowcloud.cn:9200/test1/_search
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-10T015302.200.json
+
+###
+
+GET http://www.vowcloud.cn:9200/test1/_serach
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-10T015254.400.json
+
+###
+

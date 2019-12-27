@@ -1,0 +1,13 @@
+[proxy]
+[proxy.web1]
+pass = "/web1"
+path = "http://localhost:9091"
+
+
+[proxy.web2]
+pass = "/web2"
+path = "http://localhost:9092"
+
+[proxy.web3]
+pass = "/web2"
+path = "http://localhost:9093"

@@ -1,0 +1,18 @@
+{
+ "name": "cpustatus",
+ "description": "Enter your project description",
+ "author": {
+  "name": "yang",
+  "email": "123@qq.com"
+ },
+ "version": "0.1.0",
+ "binaryname": "cpustatus",
+ "frontend": {
+  "dir": "frontend",
+  "install": "npm install",
+  "build": "npm run build",
+  "bridge": "src",
+  "serve": "npm run serve"
+ },
+ "WailsVersion": ""
+}
