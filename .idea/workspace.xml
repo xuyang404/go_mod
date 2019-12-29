@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2529c6b-e635-42fb-8ec2-9743c23f41c7" name="Default Changelist" comment="" />
+    <list default="true" id="b2529c6b-e635-42fb-8ec2-9743c23f41c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/learning/WaitGroup/wg/wg.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learning/assembly_line/assembly_line_fan.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learning/assembly_line/assembly_line_fan2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learning/assembly_line/simple_assembly_line.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/WaitGroup/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/learning/WaitGroup/main.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +25,7 @@
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spider" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TL7eWgRjsrVkUom2Pe8umIlFpU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -30,16 +38,19 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/learning/assembly_line" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/learning/assembly_line" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/learning/WaitGroup/wg" />
       <recent name="$PROJECT_DIR$/net" />
       <recent name="$PROJECT_DIR$/net/net2" />
       <recent name="$PROJECT_DIR$/net/net1" />
       <recent name="$PROJECT_DIR$/spider/zhenai/parser" />
-      <recent name="$PROJECT_DIR$/spider/zhenai/parser_types" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -212,7 +223,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build web1.go">
+  <component name="RunManager" selected="Go Build.go build assembly_line_fan.go">
+    <configuration name="go build " type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="projects" />
+      <working_directory value="$PROJECT_DIR$/learning/WaitGroup" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/learning/assembly_line_1/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build " type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="projects" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/learning/WaitGroup/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build assembly_line_fan.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="projects" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/learning/assembly_line/assembly_line_fan.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -221,29 +256,11 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/net/net2/main.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build spider/crawl_distributed/persist/service" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="projects" />
-      <working_directory value="$PROJECT_DIR$/spider" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/spider/crawl_distributed/persist/service/main.go" />
-      <package value="spider/crawl_distributed/persist/service" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build spider/crawl_distributed/worker/service" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="projects" />
-      <working_directory value="$PROJECT_DIR$/spider" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/spider/crawl_distributed/worker/service/workerProcess.go" />
-      <package value="spider/crawl_distributed/worker/service" />
+      <filePath value="$PROJECT_DIR$/learning/WaitGroup/main.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -255,13 +272,28 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build " type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="projects" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/learning/WaitGroup/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build main.go (1)" />
+      <item itemvalue="Go Build.go build " />
+      <item itemvalue="Go Build.go build web1.go" />
+      <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Build.go build assembly_line_fan.go" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build web1.go" />
-        <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build main.go (2)" />
-        <item itemvalue="Go Build.go build spider/crawl_distributed/persist/service" />
-        <item itemvalue="Go Build.go build spider/crawl_distributed/worker/service" />
+        <item itemvalue="Go Build.go build assembly_line_fan.go" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build " />
+        <item itemvalue="Go Build.go build " />
+        <item itemvalue="Go Build.go build " />
       </list>
     </recent_temporary>
   </component>

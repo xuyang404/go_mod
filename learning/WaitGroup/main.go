@@ -2,30 +2,32 @@ package main
 
 import (
 	"fmt"
-	"sync"
+	"strconv"
+	"time"
+	"wg/wg"
 )
 
 func main() {
-	wg := sync.WaitGroup{}
-	result := make(chan int, 10)
+	wg1 := wg.NewWg(2)
+	res := make(chan interface{}, 10)
+
+	ch := wg1.Square(res)
 
 	for i := 0; i < 10; i++ {
-		wg.Add(1)
+		wg1.Add()
 		go func(i int) {
-			result <- i
-			fmt.Println("i: ", i)
-			wg.Done()
-		}(i)
+			m := make(map[string]interface{})
+			m[strconv.Itoa(i)] = i
+			res <- m
+			time.Sleep(time.Second)
+			wg1.Done()
+		}(i, )
 	}
 
-	wg.Wait()
-	close(result)
+	 wg1.Wait()
+	close(res)
 
 	fmt.Println("完了 ")
-	a := make([]int, 1)
-	for val := range result{
-		a = append(a, val)
-	}
-	fmt.Printf("%#v", a)
+	fmt.Printf("%v", <-ch)
 
 }
