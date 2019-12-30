@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 //生产者，负责向管道投递数据
 func producer(n int) <-chan int {
 	//带缓冲channel，增加生产并发量
@@ -75,7 +77,7 @@ func main() {
 
 
 	//消费者，从管道里消费处理好的数据
-	for _ = range c1 {
-		//fmt.Println(c)
+	for c := range c1 {
+		fmt.Println(c)
 	}
 }
